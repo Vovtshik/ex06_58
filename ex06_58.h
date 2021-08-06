@@ -9,7 +9,7 @@ T min(T value1, T value2)
       return value2;
    else
    {
-      cout << "value1 = value2 " = value1;
+      cout << "value1 = value2 = " << value1;
       return value1;
    }
 }
