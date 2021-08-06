@@ -15,7 +15,7 @@ int main()
    cin >> int1 >> int2;
 
    cout << "The minimum integer value is: "
-	<< min(int1, int2);
+	<< min(int1, int2) << endl << endl;
 
    double double1, double2;
 
@@ -23,7 +23,7 @@ int main()
    cin >> double1 >> double2;
 
    cout << "The minimum double value is: "
-	<< min(double1, double2);
+	<< min(double1, double2) << endl << endl;
    
    char char1, char2;
 
@@ -31,7 +31,7 @@ int main()
    cin >> char1 >> char2;
 
    cout << "The minimum char value is: "
-	<< min(char1, char2);
+	<< min(char1, char2) << endl << endl;
 
    return 0;
 }
